@@ -8,7 +8,7 @@ public class HiddenWord{
     public String getHint(String guess){
     String temp="";
     for(int i=0;i<guess.length();i++){
-        if(realWord.subString(i,i+1).equals(guess.subString(i,i+1)){
+        if(puzzle.subString(i,i+1).equals(guess.subString(i,i+1)){
             temp=temp+puzzle.subString(i,i+1);
         }
         else if(puzzle.indexOf(guess.subString(i,i+1)!=-1){
